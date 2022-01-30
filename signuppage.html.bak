@@ -1,0 +1,85 @@
+<!Doctype html>
+ <html>
+     <head>
+       <title>Form element Demo</title>
+     </head>
+       <body>
+	   <div style="height:50px; width:100%;"><h2 style="float:left;color:purple; font-family:cursive; margin-left:8px">Hima & Friends Initiative</h2></div>
+	   <div style="height:50%; width:100%;background-color:white">
+	    <div style="height:50px; width:100%"><p align="center">
+			      <a  href="projectone.html">Home</a> &nbsp; &nbsp; &nbsp;
+		          <a  href="projectone.html">About Us</a> &nbsp; &nbsp; &nbsp;
+		          <a  href="loginpage.html">Login</a> &nbsp; &nbsp; &nbsp;
+				  <a  href="projectone.html">Updates</a> &nbsp; &nbsp; &nbsp;
+		          <a  href="signuppage.html">Sign up </a></p>
+		</div
+	      <form action="" method=""> 
+		  <p>
+		   <label for="fullname">Fullname</label>
+		   <input type="text" name="fullname" id="fullname"/>
+		 </p>
+		 <p>
+		 <label for="password">Password</label>
+		 <input type="password" name="password" id="password"/>
+		 </p>
+		 <p>
+		 Gender <br>
+		 <input type="radio" name="gender"  id="gender1" value="Male"/>
+		 <label for="gender1">Male</label>
+		 
+		 <input type="radio" name="gender" id="gender2" value="Female"/>
+		 <label for="gender2">Female</label>
+		 </p>
+		 
+		 <p>
+		 Cities Visited<br>
+		 <input type="checkbox"  name="city1" id="city1" value="Kano"/>
+		  <label for="city1">Kano</label>
+		 
+		 <input type="checkbox"  name="city2" id="city2" value="Kaduna"/>
+		 <label for="city2">Kaduna</label>
+
+		 <input type="checkbox"  name="city3" id="city3" value="Oyo"/>
+		 <label for="city3">Oyo</label>
+		 
+		 <input type="checkbox"  name="city4" id="city4" value="Calabar"/>
+		 <label for="city4">Calabar</label>
+		 
+		 </p>
+		 </div>
+		 <div style="height:50%;width:100%;background-color:purple">
+		 <p>
+		 <label>Upload Profile Photo</label>
+		 <input type="file" name="profilepicture"/>
+		 </p>
+		 
+		 <p>
+		  <label>Email Address</label>
+		  <input type="email" name="emailaddress" />
+		 </p>
+		 
+		 <p>
+		 <label>Country</label>
+		 <select name="country">
+		   <option value="">Choose Country</option>
+		   <option value="">Nigeria</option>
+		   <option value="">America</option>
+		   <option value="">India</option>
+		   <option value="">Mali</option>
+		  </select>
+		 </p>
+		 
+		 <p>
+		 <label>Biography</label>
+		 <textarea name="bio"  rows="5" cols="25"></textarea>
+		 </p>
+		 
+		 <p>
+		 <input type="submit" name="submit" value="Sign Up"
+		 </p>
+		 </div>
+		 <div style="height:40px; width:100%"><p align="center" style="margin-bottom:5px; color:purple"> Developed by Haishat Ibrahim</p></div>
+		 </form>
+      
+       </body>
+ <html> 
